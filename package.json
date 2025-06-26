@@ -1,13 +1,16 @@
-{
-  "name": "streamify-video-calls-master",
-  "version": "1.0.0",
-  "description": "<h1 align=\"center\">✨ Fullstack Chat & Video Calling App ✨</h1>",
-  "main": "index.js",
-  "scripts": {
-    "build": "cd backend && npm install && cd ../frontend && npm install && npm run build",
-        "start": "npm run start --prefix backend"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
-}
+   {
+     "name": "streamify",
+     "version": "1.0.0",
+     "main": "index.js",
+     "scripts": {
+      
+       "build": "npm install --prefix backend && cd frontend && npm install --production=false && ./node_modules/.bin/vite build",
+      
+       "start": "npm run start --prefix backend"
+     },
+     "keywords": [],
+     "author": "",
+     "license": "ISC",
+     "description": ""
+   }
+   
