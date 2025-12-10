@@ -17,7 +17,7 @@ const __dirname = path.resolve();
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://streamify-admin-panel.vercel.app",
     credentials: true, // allow frontend to send cookies
   })
 );
